@@ -55861,8 +55861,7 @@ var OccupancyGridClient = /*@__PURE__*/(function (EventEmitter2) {
       ros : this.ros,
       name : this.topicName,
       messageType : 'nav_msgs/OccupancyGrid',
-      queue_length : 1,
-      compression : this.compression
+      queue_length : 1
     });
     this.sceneNode = null;
     this.rosTopic.subscribe(this.processMessageBound);
